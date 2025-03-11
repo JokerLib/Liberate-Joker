@@ -130,7 +130,7 @@ static_vehicles_AI = [
 support_vehicles_west = [
 	["B_Truck_01_flatbed_F", 0, 0, 80, 0],
 	["rhsusf_M1078A1P2_B_M2_WD_flatbed_fmtv_usarmy", 0, 300, 80, 0],
-	["B_G_Van_02_vehicle_F", 0, 0, 40, 0].
+	["B_G_Van_02_vehicle_F", 0, 0, 40, 0],
 	["B_G_Offroad_01_repair_F",5,150,5,GRLIB_perm_inf],
 	["B_G_Van_01_fuel_F",5,130,40,GRLIB_perm_inf],
 	["B_APC_Tracked_01_CRV_F",15,2000,50,GRLIB_perm_max],
