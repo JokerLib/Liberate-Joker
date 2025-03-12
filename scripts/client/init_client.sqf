@@ -120,7 +120,6 @@ set_rank = compileFinal preprocessFileLineNumbers "scripts\client\misc\set_rank.
 set_sticky_bomb = compileFinal preprocessFileLineNumbers "scripts\client\misc\set_sticky_bomb.sqf";
 spawn_camera = compileFinal preprocessFileLineNumbers "scripts\client\spawn\spawn_camera.sqf";
 speak_manager = compileFinal preprocessFileLineNumbers "scripts\client\misc\speak_manager.sqf";
-vehicle_fuel = compileFinal preprocessFileLineNumbers "scripts\client\misc\vehicle_fuel.sqf";
 vehicle_permissions = compileFinal preprocessFileLineNumbers "scripts\client\misc\vehicle_permissions.sqf";
 write_credit_line = compileFinal preprocessFileLineNumbers "scripts\client\ui\write_credit_line.sqf";
 
@@ -166,7 +165,6 @@ addMissionEventHandler ["Map", {
 [] execVM "scripts\client\actions\man_manager.sqf";
 [] execVM "scripts\client\actions\squad_manager.sqf";
 [] execVM "scripts\client\misc\support_manager.sqf";
-[] execVM "scripts\client\misc\vehicle_fuel_manager.sqf";
 [] execVM "scripts\client\misc\sides_stats_manager.sqf";
 [] execVM "scripts\client\misc\secondary_jip.sqf";
 [] execVM "scripts\client\misc\stop_renegade.sqf";
