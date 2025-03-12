@@ -101,12 +101,21 @@ heavy_vehicles = [
 
 air_vehicles = [
 	["RHS_Mi8mt_vdv",0,300,60,0],
-	["I_Heli_Transport_02_F",0,0,60,0],
 	["B_Heli_Transport_01_F",0,300,60,0],
+	["rhs_ka60_grey",0,0,60,0],
 	["RHS_UH60M_d",0,300,60,0],
+	["RHS_AH64D_wd",0,1000,60,0],
+	["RHS_AH1Z",0,1000,60,0],
+	["rhs_mi28n_vvs",0,1000,60,0],
+	["RHS_Ka52_vvs",0,1000,60,0],
+	["RHS_Mi24P_vvsc",0,1000,75,0],
+	["rhs_mi28n_vvsc",0,1000,60,0],
+	["RHS_TU95MS_vvs_old",0,600,70,0],
+	["FA_EMB312_AT27M35_Nato",0,800,80,0],
 	["I_Plane_Fighter_03_dynamicLoadout_F",0,1000,100,0],
 	["I_Plane_Fighter_04_F",0,1000,120,0],
-	["rhs_mig29sm_vvs",0,1000,120,0]
+	["rhs_mig29sm_vvs",0,1000,120,0],
+	["FIR_F23A",0,1100,130,0]
 ];
 
 blufor_air = [
