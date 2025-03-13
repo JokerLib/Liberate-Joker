@@ -109,7 +109,6 @@ air_vehicles = [
 	["rhs_mi28n_vvs",0,1000,60,0],
 	["RHS_Ka52_vvs",0,1000,60,0],
 	["RHS_Mi24P_vvsc",0,1000,75,0],
-	["rhs_mi28n_vvsc",0,1000,60,0],
 	["RHS_TU95MS_vvs_old",0,600,70,0],
 	["FA_EMB312_AT27M35_Nato",0,800,80,0],
 	["I_Plane_Fighter_03_dynamicLoadout_F",0,1000,100,0],
