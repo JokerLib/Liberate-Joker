@@ -214,9 +214,9 @@ support_vehicles = support_vehicles + [
 	[ammobox_o_typename,0,round(300/GRLIB_recycling_percentage),0,GRLIB_perm_hidden],
 	[ammobox_i_typename,0,round(300/GRLIB_recycling_percentage),0,GRLIB_perm_hidden],
 	[basic_weapon_typename,0,round(150 / GRLIB_recycling_percentage),0,GRLIB_perm_hidden],
-	[waterbarrel_typename,0,130,0,GRLIB_perm_hidden],
-	[fuelbarrel_typename,0,130,50,GRLIB_perm_hidden],
-	[foodbarrel_typename,0,130,0,GRLIB_perm_hidden]
+	[waterbarrel_typename,0,130,5,GRLIB_perm_hidden],
+	[fuelbarrel_typename,0,100,20,GRLIB_perm_hidden],
+	[foodbarrel_typename,0,130,5,GRLIB_perm_hidden]
 ] + support_vehicles_west;
 
 support_vehicles_classname = [];
