@@ -1,4 +1,4 @@
-A// *** BADDIES ***
+// *** BADDIES ***
 GRLIB_side_enemy = EAST;
 GRLIB_east_modder = "pSiKO";
 
@@ -37,23 +37,23 @@ opfor_patrol = "Land_Cargo_Patrol_V3_F";
 opfor_hq = "Land_Cargo_HQ_V3_F";
 
 militia_squad = [
-	"O_G_Soldier_SL_F",
-	"O_G_Soldier_A_F",
-	"O_G_Soldier_AR_F",
-	"O_G_Soldier_AR_F",
-	"O_G_medic_F",
-	"O_G_engineer_F",
-	"O_G_Soldier_exp_F",
-	"O_G_Soldier_GL_F",
-	"O_G_Soldier_M_F",
-	"O_G_Soldier_F",
-	"O_G_Soldier_LAT_F",
-	"O_G_Soldier_LAT_F",
-	"O_G_Soldier_lite_F",
-	"O_G_Sharpshooter_F",
-	"O_G_Soldier_TL_F",
-	"O_Soldier_AA_F",
-	"O_Soldier_AT_F"
+	"DSF_TAL_SquadLeader",
+	"DSF_TAL_Grenadier",
+	"DSF_TAL_Marksman",
+	"DSF_TAL_Marksman",
+	"DSF_TAL_Medic",
+	"DSF_TAL_Engineer",
+	"DSF_TAL_AutomaticRifleman",
+	"DSF_TAL_Grenadier",
+	"DSF_TAL_Rifleman",
+	"DSF_TAL_Rifleman",
+	"DSF_TAL_RPG7Soldier",
+	"DSF_TAL_RPG7Soldier",
+	"DSF_TAL_Rifleman_Lite",
+	"DSF_TAL_Marksman",
+	"DSF_TAL_TeamLeader",
+	"DSF_TAL_AASoldier",
+	"DSF_HAMAS_ATSoldier"
 ];
 
 militia_loadout_overide = [
