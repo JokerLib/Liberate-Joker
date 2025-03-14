@@ -154,13 +154,13 @@ support_vehicles_west = [
 	["B_G_Van_02_vehicle_F", 0, 0, 40, 0],
 	["B_G_Offroad_01_repair_F",5,150,5,GRLIB_perm_inf],
 	["B_G_Van_01_fuel_F",5,130,40,GRLIB_perm_inf],
-	["B_APC_Tracked_01_CRV_F",15,2000,50,GRLIB_perm_max],
+	["B_APC_Tracked_01_CRV_F",0,300,40,0],
 	["RHS_Ural_Flat_VV_01", 0, 0, 50, 0],
 	["rhs_zil131_flatbed_cover_vv", 0, 0, 50, 0],
 	["rhs_kraz255b1_flatbed_vv", 0, 0, 50, 0],
 	["RHS_Ural_Open_VV_01", 0, 0, 50, 0],
-	["rhs_kamaz5350_vv", 0, 0, 50, 0],
-	["rhs_kamaz5350_flatbed_vv", 0, 0, 50, 0]
+	["rhs_kamaz5350_vv", 0, 0, 40, 0],
+	["rhs_kamaz5350_flatbed_vv", 0, 0, 40, 0]
 ];
 
 //buildings_west_overide = true;

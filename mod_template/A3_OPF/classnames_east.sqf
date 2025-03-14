@@ -1,34 +1,34 @@
-// *** BADDIES ***
+A// *** BADDIES ***
 GRLIB_side_enemy = EAST;
 GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
-opfor_crew = "O_Crew_F";
-opfor_sentry = "O_Soldier_lite_F";
-opfor_rifleman = "O_Soldier_F";
-opfor_grenadier = "O_Soldier_GL_F";
-opfor_squad_leader = "O_Soldier_SL_F";
-opfor_team_leader = "O_Soldier_TL_F";
-opfor_marksman = "O_soldier_M_F";
-opfor_machinegunner = "O_Soldier_AR_F";
-opfor_heavygunner = "O_HeavyGunner_F";
-opfor_medic = "O_medic_F";
-opfor_rpg = "O_Soldier_LAT_F";
-opfor_at = "O_Soldier_AT_F";
-opfor_aa = "O_Soldier_AA_F";
+opfor_crew = "DSF_TAL_Crewman";
+opfor_sentry = "DSF_TAL_Rifleman_Lite";
+opfor_rifleman = "DSF_TAL_Rifleman";
+opfor_grenadier = "DSF_TAL_Grenadier";
+opfor_squad_leader = "DSF_TAL_SquadLeader";
+opfor_team_leader = "DSF_TAL_TeamLeader";
+opfor_marksman = "DSF_TAL_Marksman";
+opfor_machinegunner = "DSF_TAL_AutomaticRifleman";
+opfor_heavygunner = "DSF_TAL_MachineGunner";
+opfor_medic = "DSF_TAL_Medic";
+opfor_rpg = "DSF_TAL_RPG7Soldier";
+opfor_at = "DSF_HAMAS_ATSoldier";
+opfor_aa = "DSF_TAL_AASoldier";
 opfor_officer = "O_officer_F";
-opfor_sharpshooter = "O_Sharpshooter_F";
-opfor_sniper = "O_sniper_F";
-opfor_spotter = "O_spotter_F";
-opfor_engineer = "O_engineer_F";
-opfor_paratrooper = "O_soldier_PG_F";
-opfor_mrap_hmg = "O_MRAP_02_hmg_F";
-opfor_mrap_gmg = "O_MRAP_02_gmg_F";
-opfor_transport_helo = "O_Heli_Transport_04_covered_F";
-opfor_transport_truck = "O_Truck_03_covered_F";
-opfor_fuel_truck = "O_Truck_03_fuel_F";
-opfor_ammo_truck = "O_Truck_03_ammo_F";
+opfor_sharpshooter = "DSF_TAL_Marksman";
+opfor_sniper = "DSF_TAL_Marksman";
+opfor_spotter = "DSF_TAL_Marksman";
+opfor_engineer = "DSF_TAL_Engineer";
+opfor_paratrooper = "DSF_TAL_Rifleman_SPAR";
+opfor_mrap_hmg = "DSF_TAL_technical";
+opfor_mrap_gmg = "DSF_TAL_technical_AT";
+opfor_transport_helo = "RHS_Mi8mt_vvs";
+opfor_transport_truck = "rhs_zil131_open_msv";
+opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";
+opfor_ammo_truck = "rhs_gaz66_ammo_msv";
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";
 opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";
 opfor_flag = "Flag_CSAT_F";
