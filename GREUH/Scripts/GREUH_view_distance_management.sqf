@@ -8,7 +8,7 @@ private _desired_inf = -1;
 private _desired_veh = -1;
 private _desired_obj = -1;
 
-GREUH_force_adjust_view_distance = false;
+GREUH_force_adjust_view_distance = true;
 GREUH_view_distance_factor = 1.0;
 //waitUntil {sleep 1; !isNil "GREUH_view_distance_factor" };
 //waitUntil {sleep 1; !isNil "GREUH_force_adjust_view_distance" };
