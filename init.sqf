@@ -10,7 +10,7 @@ if (!isServer && isMultiplayer && count (entities "HeadlessClient_F") > 0) then 
 
 diag_log "--- Init start ---";
 titleText ["-- Liberation RX --","BLACK FADED", 100];
-disableUserInput true;
+disableUserInput false;
 
 [] call compileFinal preprocessFileLineNumbers "build_info.sqf";
 
