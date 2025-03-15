@@ -208,7 +208,7 @@ if (abort_loading) exitWith {
 
 global_locked_group = [];
 publicVariable "global_locked_group";
-
+["Initialize"]call BIS_fnc_dynamicGroups;
 sleep 1;
 GRLIB_init_server = true;
 publicVariable "GRLIB_init_server";

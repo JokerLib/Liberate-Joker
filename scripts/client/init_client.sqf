@@ -289,6 +289,8 @@ if (isServer && hasInterface) then {
 	 }];
 };
 
+["InitializePlayer",[player,true]]call BIS_fnc_dynamicGroups;
+
 initAmbientLife;
 enableEnvironment [true, true];
 
