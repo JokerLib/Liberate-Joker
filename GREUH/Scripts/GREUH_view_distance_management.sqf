@@ -24,7 +24,7 @@ while { true } do {
 		|| ( round _olddesiredvolume != round desired_vehvolume)
 		|| GREUH_force_adjust_view_distance };
 	waitUntil {sleep 1; alive player };
-	GREUH_force_adjust_view_distance = false;
+	GREUH_force_adjust_view_distance = true;
 	_olddistance_inf = round desiredviewdistance_inf;
 	_olddistance_veh = round desiredviewdistance_veh;
 	_olddistance_obj = round desiredviewdistance_obj;
