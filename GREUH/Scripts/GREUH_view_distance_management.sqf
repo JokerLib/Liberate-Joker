@@ -8,7 +8,7 @@ private _desired_inf = -1;
 private _desired_veh = -1;
 private _desired_obj = -1;
 
-GREUH_force_adjust_view_distance = true;
+GREUH_force_adjust_view_distance = false;
 GREUH_view_distance_factor = 1.0;
 //waitUntil {sleep 1; !isNil "GREUH_view_distance_factor" };
 //waitUntil {sleep 1; !isNil "GREUH_force_adjust_view_distance" };
@@ -24,7 +24,7 @@ while { true } do {
 		|| ( round _olddesiredvolume != round desired_vehvolume)
 		|| GREUH_force_adjust_view_distance };
 	waitUntil {sleep 1; alive player };
-	GREUH_force_adjust_view_distance = true;
+	GREUH_force_adjust_view_distance = false;
 	_olddistance_inf = round desiredviewdistance_inf;
 	_olddistance_veh = round desiredviewdistance_veh;
 	_olddistance_obj = round desiredviewdistance_obj;
