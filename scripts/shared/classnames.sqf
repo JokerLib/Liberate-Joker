@@ -199,7 +199,6 @@ support_vehicles = support_vehicles + [
 	[medicalbox_typename,0,300,0,0],
 	[canister_fuel_typename,0,25,0,0],
 	[playerbox_typename,0,0,0,0],
-	[huron_typename,0,1000,0,GRLIB_perm_tank],
 	[medic_heal_typename,0,100,0,GRLIB_perm_log],
 	[Warehouse_typename,0,0,0,GRLIB_perm_inf],
 	[storage_medium_typename,0,50,0,0],
