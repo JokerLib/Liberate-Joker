@@ -48,7 +48,7 @@ addMissionEventHandler ["EntityCreated", {
     params ["_entity"];
 
     // Überprüft, ob das erstellte Objekt eine Kiste ist
-    if (_entity isKindOf "ReammoBox_F") then {
+    if (_entity isKindOf "Box_NATO_Ammo_F") then {
         // Ruft die Funktion zum Leeren des Inventars auf
         [_entity] call _clearBoxInventory;
     };
