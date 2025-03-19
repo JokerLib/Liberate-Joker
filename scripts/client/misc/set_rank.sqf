@@ -12,8 +12,8 @@ if (_rank == "Colonel") then {
 };
 
 if (_rank == "Super Colonel") then {
-	player setUnitTrait ["Medic", true];
-	player setUnitTrait ["Engineer", true];
+	player setUnitTrait ["Medic", false];
+	player setUnitTrait ["Engineer", false];
 	_rank = "Colonel" 
 };
 
