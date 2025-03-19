@@ -42,6 +42,7 @@ if (_delete) then {
 	deleteVehicle _vehicle;
 };
 
+<<<<<<< HEAD
 true;
 
 addMissionEventHandler ["EntityCreated", {
@@ -53,3 +54,6 @@ addMissionEventHandler ["EntityCreated", {
         [_entity] call _clearBoxInventory;
     };
 }];
+=======
+true;
+>>>>>>> parent of 0a328ec (Empty Crates)
