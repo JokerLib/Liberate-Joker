@@ -42,18 +42,4 @@ if (_delete) then {
 	deleteVehicle _vehicle;
 };
 
-<<<<<<< HEAD
 true;
-
-addMissionEventHandler ["EntityCreated", {
-    params ["_entity"];
-
-    // Überprüft, ob das erstellte Objekt eine Kiste ist
-    if (_entity isKindOf "Box_NATO_Ammo_F") then {
-        // Ruft die Funktion zum Leeren des Inventars auf
-        [_entity] call _clearBoxInventory;
-    };
-}];
-=======
-true;
->>>>>>> parent of 0a328ec (Empty Crates)
