@@ -8,7 +8,7 @@ player addRating 3000;
 
 // Ability
 if (_rank == "Colonel") then { 
-	player setUnitTrait ["Medic", true];
+	player setUnitTrait ["Medic", false];
 };
 
 if (_rank == "Super Colonel") then {
