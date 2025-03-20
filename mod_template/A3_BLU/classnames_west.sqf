@@ -91,7 +91,7 @@ heavy_vehicles = [
 air_vehicles = [
 	["RHS_Mi8mt_vdv",0,300,60,0],
 	["RHS_Mi8AMT_vdv",0,0,60,0],
-	["RHS_Mi8T_vdv",0,0,0,60,0],
+	["RHS_Mi8T_vdv",0,0,60,0],
 	["B_Heli_Transport_01_F",0,300,60,0],
 	["rhs_ka60_grey",0,0,60,0],
 	["RHS_UH60M_d",0,300,60,0],
