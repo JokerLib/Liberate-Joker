@@ -294,5 +294,9 @@ if (isServer && hasInterface) then {
 initAmbientLife;
 enableEnvironment [true, true];
 
+if (player getUnitTrait "medic") then {
+    player setVariable ["ace_medical_medicClass", 1, true];
+};
+
 GRLIB_init_client = true;
 diag_log "--- Client Init stop ---";
