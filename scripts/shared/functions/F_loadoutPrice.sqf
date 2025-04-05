@@ -14,7 +14,7 @@ private _expensive_items = LOADOUT_expensive_items + [
 	"toolkit",
 	"srifle_dmr_02",
 	"srifle_dmr_04",
-    	"srifle_dmr_05",
+    "srifle_dmr_05",
 	"srifle_gm6",
 	"srifle_lrr",
 	"mmg_",

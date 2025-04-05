@@ -54,27 +54,13 @@ support_vehicles append [
 // ACE Items price
 LOADOUT_fixed_price append [
     // Medical stuff (in lower case)
-    ["ace_atropine", 1],
-    ["ace_bloodiv",3],
-    ["ace_bloodiv_500",2],
-    ["ace_bloodiv_250",1],
-    ["ace_plasmaiv",3],
-    ["ace_plasmaiv_500",2],
-    ["ace_plasmaiv_250",1],
-    ["ace_salineiv",3],
-    ["ace_salineiv_500",2],
-    ["ace_salineiv_250",1],
-    ["ace_epinephrine", 1],
-    ["ace_morphine", 1],
-    ["ace_packingbandage", 1],
-    ["ace_personalaidkit", 1],
-    ["ace_surgicalkit",1]
 ];
 
 LOADOUT_free_items append [
     // Medical free stuff (in lower case)
     "ace_fielddressing",
     "ace_elasticbandage",
+    "ace_packingbandage",
     "ace_quikclot",
     "ace_bodybag",
     "ace_bodybagobject",
