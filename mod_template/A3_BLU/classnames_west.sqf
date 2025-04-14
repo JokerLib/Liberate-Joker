@@ -194,7 +194,7 @@ heavy_vehicles = [
 	["rhs_gaz66_zu23_vdv", 0, 35, 300, 0],
 	["RHS_Ural_Zu23_VDV_01", 0, 35, 300, 0],
 	["rhs_zsu234_aa", 0, 83, 600, 0],
-	["I_LT_01_AA_F", 0, 57, 342, 0],
+	["I_LT_01_AA_F", 0, 57, 342, 0]
 ];
 
 air_vehicles = [
