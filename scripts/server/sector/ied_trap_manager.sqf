@@ -13,10 +13,6 @@ private _hostilecount = 0;
 private _ied_type = selectRandom GRLIB_ide_traps;
 private _ied_power = selectRandom [
 	"GrenadeHand",
-	"M_AT",
-	"R_PG7_F",
-	"R_PG32V_F",
-	"R_MRAAWS_HE_F",
 	"GrenadeHand"
 	//"Rocket_04_HE_F"
 ];
