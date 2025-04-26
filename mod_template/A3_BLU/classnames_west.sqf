@@ -269,7 +269,12 @@ support_vehicles_west = [
 	["rhs_kraz255b1_flatbed_vv",0,0,50,0],
 	["RHS_Ural_Open_VV_01",0,0,50,0],
 	["rhs_kamaz5350_vv",0,0,40,0],
-	["rhs_kamaz5350_flatbed_vv",0,0,40,0]
+	["rhs_kamaz5350_flatbed_vv",0,0,40,0],
+	["BWA3_Multi_Fleck", 0, 279, 33, 0],
+	["BWA3_WLP14_Flatbed_Tropen", 0, 0, 10, 0],
+	["BWA3_WLP14_Flatbed_Oliv", 0, 0, 10, 0]
+
+
 ];
 
 //buildings_west_overide = true;

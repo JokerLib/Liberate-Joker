@@ -132,7 +132,7 @@ _failedExec = {
 _successExec = {
 	// Mission complete
 	{ deleteVehicle _x } forEach (units _grp_wnded);
-	{ [_x, 5] call F_addReput } forEach (AllPlayers - (entities "HeadlessClient_F"));
+	{ [_x, 40] call F_addReput } forEach (AllPlayers - (entities "HeadlessClient_F"));
 	_successHintMessage = "STR_HEAL_CIV_MESSAGE2";
 };
 

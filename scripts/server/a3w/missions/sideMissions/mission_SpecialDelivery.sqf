@@ -147,7 +147,7 @@ _failedExec = {
 
 _successExec = {
 	// Mission completed
-	{ [_x, 7] call F_addReput } forEach ([_quest_item, 10] call F_getNearbyPlayers);
+	{ [_x, 15] call F_addReput } forEach ([_quest_item, 10] call F_getNearbyPlayers);
 	deleteMarker "GRLIB_A3W_Mission_SD_Item";
 	deleteMarker "GRLIB_A3W_Mission_SD_Marker";
 	for "_i" from 1 to 2 do {

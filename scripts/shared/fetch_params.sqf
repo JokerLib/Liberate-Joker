@@ -208,7 +208,7 @@ PAR_grave = ["PAR_Grave"] call lrx_getParamValue;
 // Hardcoded
 GRLIB_endgame = 0;
 if (isNil "GRLIB_global_stop") then { GRLIB_global_stop = 0 };
-GRLIB_min_score_player = 20;				// Minimal player score to be saved
+GRLIB_min_score_player = 0;				// Minimal player score to be saved
 GRLIB_opfor_cap = GRLIB_opforcap * GRLIB_unitcap;		// Maximal number of enemies units
 GRLIB_blufor_cap = 50;						// Maximal number of friendly units
 GRLIB_max_active_sectors = 4;				// Maximal active sectors at the same time
