@@ -2,6 +2,8 @@ waitUntil {sleep 1; !isNil "GRLIB_all_fobs"};
 waitUntil {sleep 1; !isNil "GRLIB_init_server"};
 sleep 2;
 
+if (true) exitWith {};
+
 // Heli
 private _huron_type = huron_typename;
 private _huron_pos = getPosATL huronspawn;
