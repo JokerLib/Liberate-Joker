@@ -12,17 +12,20 @@ private _infantry_trigger = 2 + (floor (random 3));
 private _vehicle_trigger = 1;
 
 private _ied_type = selectRandom [
-	"IEDLandBig_F",
-	"IEDLandSmall_F",
-	"IEDUrbanBig_F",
-	"IEDUrbanSmall_F"
+	"iedd_ied_Bucket",
+	"iedd_ied_Cardboard",
+	"iedd_ied_Cinder",
+	"iedd_ied_CanisterFuel",
+	"iedd_ied_Metal",
+	"iedd_ied_Barrel",
+	"iedd_ied_CanisterPlastic"
 ];
 
 private _sector_pos = markerPos _sector;
 private _roadobj = selectRandom (_sector_pos nearRoads _radius);
 
 if !(isNil "_roadobj") then {
-	private _ied_obj = createMine [_ied_type, (_roadobj getPos [1, random(360)]), [], 0];
+	private _ied_obj = createVehicle [_ied_type, (_roadobj getPos [1, random(360)]), [], 0];
 	private _ied_pos = (getPos _ied_obj);
 	_ied_obj setPos _ied_pos;
 

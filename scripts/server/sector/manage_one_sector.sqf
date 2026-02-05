@@ -57,7 +57,7 @@ if (_sector in sectors_bigtown) then {
 	if (floor random 100 > (66 / GRLIB_difficulty_modifier)) then { _vehtospawn pushback ([] call F_getAdaptiveVehicle) };
 	_spawncivs = true;
 	_building_ai_max = 12;
-	_building_range = 300;
+	_building_range = 500;
 	_local_capture_size = _local_capture_size * 1.4;
 	_ied_count = (4 + (floor (random 5)));
 };
@@ -91,8 +91,8 @@ if (_sector in sectors_military) then {
 	if (floor random 100 > (66 / GRLIB_difficulty_modifier)) then { _vehtospawn pushback ([] call F_getAdaptiveVehicle) };
 	_spawncivs = false;
 	_building_ai_max = 6;
-	_building_range = 150;
-	_ied_count = (3 + (floor random 3));
+	_building_range = 300;
+	_ied_count = 0;
 	_static_count = 3;
 	// Alarm!
 	[_sector] spawn {
@@ -113,7 +113,6 @@ if (_sector in sectors_military) then {
 	if (count _pilots > 0) then {
 		[getPosATL (selectRandom _pilots), GRLIB_side_enemy, 3] spawn spawn_air;
 	};
-	_ied_count = 4;
 };
 
 if (_sector in sectors_factory) then {
