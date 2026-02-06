@@ -57,9 +57,9 @@ if (_sector in sectors_bigtown) then {
 	if (floor random 100 > (66 / GRLIB_difficulty_modifier)) then { _vehtospawn pushback ([] call F_getAdaptiveVehicle) };
 	_spawncivs = true;
 	_building_ai_max = 12;
-	_building_range = 500;
+	_building_range = 700;
 	_local_capture_size = _local_capture_size * 1.4;
-	_ied_count = (4 + (floor (random 5)));
+	_ied_count = (2 + (floor (random 2)));
 };
 
 if (_sector in sectors_capture) then {
@@ -74,8 +74,8 @@ if (_sector in sectors_capture) then {
 	if (floor random 100 > (66 / GRLIB_difficulty_modifier)) then { _vehtospawn pushback (selectRandom militia_vehicles); };
 	_spawncivs = true;
 	_building_ai_max = 8;
-	_building_range = 200;
-	_ied_count = (3 + (floor random 4));
+	_building_range = 700;
+	_ied_count = (1 + (floor random 1));
 };
 
 if (_sector in sectors_military) then {
@@ -128,8 +128,8 @@ if (_sector in sectors_factory) then {
 	if (floor random 100 > 66) then { _vehtospawn pushback ([] call F_getAdaptiveVehicle) };
 	_spawncivs = true;
 	_building_ai_max = 6;
-	_building_range = 100;
-	_ied_count = (3 + (floor random 3));
+	_building_range = 400;
+	_ied_count = (0 + (floor random 1));
 };
 
 if (_sector in sectors_tower) then {
