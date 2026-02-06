@@ -16,8 +16,6 @@ private _ied_type = selectRandom [
 	"iedd_ied_Cardboard",
 	"iedd_ied_Cinder",
 	"iedd_ied_CanisterFuel",
-	"iedd_ied_Metal",
-	"iedd_ied_Barrel",
 	"iedd_ied_CanisterPlastic"
 ];
 
