@@ -1,200 +1,235 @@
 // *** BADDIES ***
 GRLIB_side_enemy = EAST;
-GRLIB_east_modder = "pSiKO";
+GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-opfor_crew = "DSF_TAL_Crewman";
-opfor_sentry = "DSF_TAL_Rifleman_Lite";
-opfor_rifleman = "DSF_TAL_Rifleman";
-opfor_grenadier = "DSF_TAL_Grenadier";
-opfor_squad_leader = "DSF_TAL_SquadLeader";
-opfor_team_leader = "DSF_TAL_TeamLeader";
-opfor_marksman = "DSF_TAL_Marksman";
-opfor_machinegunner = "DSF_TAL_AutomaticRifleman";
-opfor_heavygunner = "DSF_TAL_MachineGunner";
-opfor_medic = "DSF_TAL_Medic";
-opfor_rpg = "DSF_TAL_RPG7Soldier";
-opfor_at = "DSF_HAMAS_ATSoldier";
-opfor_aa = "DSF_TAL_AASoldier";
-opfor_officer = "O_officer_F";
-opfor_sharpshooter = "DSF_TAL_Marksman";
-opfor_sniper = "DSF_TAL_Marksman";
-opfor_spotter = "DSF_TAL_Marksman";
-opfor_engineer = "DSF_TAL_Engineer";
-opfor_paratrooper = "DSF_TAL_Rifleman_SPAR";
-opfor_mrap_hmg = "DSF_TAL_technical";
-opfor_mrap_gmg = "DSF_TAL_technical_AT";
-opfor_transport_helo = "RHS_Mi8mt_vvs";
-opfor_transport_truck = "rhs_zil131_open_msv";
-opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";
-opfor_ammo_truck = "rhs_gaz66_ammo_msv";
+opfor_crew = "O_Crew_F";
+opfor_sentry = "LOP_TKA_Infantry_MG";
+opfor_rifleman = "LOP_TKA_Infantry_Rifleman";
+opfor_grenadier = "LOP_TKA_Infantry_GL";
+opfor_squad_leader = "LOP_TKA_Infantry_Rifleman_2";
+opfor_team_leader = "LOP_TKA_Infantry_TL";
+opfor_marksman = "LOP_TKA_Infantry_Marksman";
+opfor_machinegunner = "LOP_TKA_Infantry_MG";
+opfor_heavygunner = "LOP_TKA_Infantry_MG";
+opfor_medic = "LOP_TKA_Infantry_Corpsman";
+opfor_rpg = "LOP_TKA_Infantry_AT";
+opfor_at = "LOP_TKA_Infantry_Rifleman_3";
+opfor_aa = "LOP_TKA_Infantry_AA";
+opfor_officer = "LOP_TKA_Infantry_Officer";
+opfor_sharpshooter = "CUP_I_RACS_M";
+opfor_sniper = "LOP_TKA_Infantry_Marksman";
+opfor_spotter = "LOP_TKA_Infantry_Rifleman_3";
+opfor_engineer = "LOP_TKA_Infantry_Engineer";
+opfor_pilot = "LOP_TKA_Infantry_Pilot";
+opfor_paratrooper = "LOP_TKA_Infantry_AT_Asst";
+opfor_mrap_hmg = "LOP_TKA_UAZ_DshKM";
+opfor_mrap_gmg = "LOP_TKA_UAZ_AGS";
+opfor_transport_helo = "LOP_TKA_Mi8MT_Cargo";
+opfor_transport_truck = "LOP_TKA_Ural";
+opfor_fuel_truck = "LOP_SYR_KAMAZ_Fuel";		// from Syrian Armed Forces
+opfor_ammo_truck = "LOP_SYR_KAMAZ_Ammo";		// from Syrian Armed Forces
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";
 opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";
-opfor_flag = "Flag_CSAT_F";
+opfor_flag = "CUP_Flag_Black";
 opfor_house = "Land_Cargo_House_V3_F";
 opfor_patrol = "Land_Cargo_Patrol_V3_F";
 opfor_hq = "Land_Cargo_HQ_V3_F";
 
+// Middle Eastern Militia
 militia_squad = [
-	"DSF_TAL_SquadLeader",
-	"DSF_TAL_Grenadier",
-	"DSF_TAL_Marksman",
-	"DSF_TAL_Marksman",
-	"DSF_TAL_Medic",
-	"DSF_TAL_Engineer",
-	"DSF_TAL_AutomaticRifleman",
-	"DSF_TAL_Grenadier",
-	"DSF_TAL_Rifleman",
-	"DSF_TAL_Rifleman",
-	"DSF_TAL_RPG7Soldier",
-	"DSF_TAL_RPG7Soldier",
-	"DSF_TAL_Rifleman_Lite",
-	"DSF_TAL_Marksman",
-	"DSF_TAL_TeamLeader",
-	"DSF_TAL_AASoldier",
-	"DSF_HAMAS_ATSoldier"
+	"LOP_AM_OPF_Infantry_Engineer",
+	"LOP_AM_OPF_Infantry_Corpsman",
+	"LOP_AM_OPF_Infantry_GL",
+	"LOP_AM_OPF_Infantry_Rifleman_6",
+	"LOP_AM_OPF_Infantry_Rifleman",
+	"LOP_AM_OPF_Infantry_Rifleman_2",
+	"LOP_AM_OPF_Infantry_Rifleman_4",
+	"LOP_AM_OPF_Infantry_Rifleman_5",
+	"LOP_AM_OPF_Infantry_Rifleman_7",
+	"LOP_AM_OPF_Infantry_Rifleman_8",
+	"LOP_AM_OPF_Infantry_AT",
+	"LOP_AM_OPF_Infantry_Marksman",
+	"LOP_AM_OPF_Infantry_Rifleman_9",
+	"LOP_AM_OPF_Infantry_AR",
+	"LOP_AM_OPF_Infantry_AR_Asst",
+	"LOP_AM_OPF_Infantry_SL"
 ];
 
 militia_loadout_overide = [
-    "O_Soldier_AA_F",
-    "O_Soldier_AT_F"
+];
+
+a3w_divers_squad = [
+	"I_diver_TL_F",
+	"I_diver_TL_F",
+	"I_diver_exp_F",
+	"I_diver_exp_F",
+	"I_diver_exp_F",
+	"I_diver_exp_F",
+	"I_diver_F",
+	"I_diver_F",
+	"I_diver_F",
+	"I_diver_F",
+	"I_diver_F",
+	"I_diver_F"
 ];
 
 militia_vehicles = [
-	"O_G_Offroad_01_armed_F",
-	"O_G_Offroad_01_armed_F",
-	"O_G_Offroad_01_AT_F",
-	"I_C_Offroad_02_LMG_F",
-	"O_LSV_02_armed_F",
-	"O_LSV_02_AT_F"
+	"LOP_AM_OPF_Landrover",
+	"LOP_AM_OPF_Landrover_M2",
+	"LOP_AM_OPF_Landrover_SPG9",
+	"LOP_AM_OPF_Nissan_PKM",
+	"LOP_AM_OPF_UAZ_DshKM",
+	"LOP_AM_OPF_UAZ_SPG",
+	"LOP_AM_OPF_BTR60"
 ];
 
 opfor_boats = [
-	"O_Boat_Armed_01_hmg_F"
+	"I_Boat_Armed_01_minigun_F"
 ];
 
 opfor_vehicles = [
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_gmg_F",
-	"O_APC_Tracked_02_cannon_F",
-	"O_APC_Wheeled_02_rcws_v2_F",
-	"O_APC_Tracked_02_cannon_F",
-	"O_APC_Wheeled_02_rcws_v2_F",
-	"O_MBT_02_cannon_F",
-	"O_MBT_02_cannon_F",
-	"O_APC_Tracked_02_AA_F",
-	"O_MBT_04_cannon_F",
-	"O_MBT_04_command_F"
+	"LOP_TKA_UAZ",
+	"LOP_TKA_UAZ_AGS",
+	"LOP_TKA_UAZ_DshKM",
+	"LOP_TKA_UAZ_Open",
+	"LOP_TKA_UAZ_SPG",
+	"LOP_TKA_Ural",
+	"LOP_TKA_Ural_open",
+	"LOP_TKA_BTR70",
+	"LOP_TKA_BTR60",
+	"LOP_TKA_ZSU234",
+	"LOP_TKA_BMP1",
+	"LOP_TKA_BMP1D",
+	"LOP_TKA_BMP2",
+	"LOP_TKA_BMP2D",
+	"LOP_TKA_T34",
+	"LOP_TKA_T55",
+	"LOP_TKA_T72BA",
+	"LOP_TKA_T72BB"
 ];
 
 opfor_vehicles_low_intensity = [
-	"O_APC_Tracked_02_cannon_F",
-	"O_APC_Wheeled_02_rcws_v2_F",
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_gmg_F",
-	"O_LSV_02_armed_F",
-	"O_LSV_02_AT_F"
+	"LOP_TKA_UAZ",
+	"LOP_TKA_UAZ_AGS",
+	"LOP_TKA_UAZ_DshKM",
+	"LOP_TKA_UAZ_Open",
+	"LOP_TKA_UAZ_SPG",
+	"LOP_TKA_Ural",
+	"LOP_TKA_Ural_open",
+	"LOP_TKA_BTR70",
+	"LOP_TKA_BTR60",
+	"LOP_TKA_BMP1"
 ];
 
 opfor_battlegroup_vehicles = [
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_gmg_F",
-	"O_MRAP_02_hmg_F",
-	"O_APC_Tracked_02_cannon_F",
-	"O_APC_Wheeled_02_rcws_v2_F",
-	"O_Truck_03_covered_F",
-	"O_MBT_02_cannon_F",
-	"O_MBT_02_cannon_F",	
-	"O_APC_Tracked_02_AA_F",
-	"O_Heli_Attack_02_dynamicLoadout_F",
-	"O_T_VTOL_02_infantry_F",
-	"O_MBT_04_cannon_F",
-	"O_MBT_04_command_F"
+	"LOP_TKA_ZSU234",
+	"LOP_TKA_BMP1D",
+	"LOP_TKA_BMP2",
+	"LOP_TKA_BMP2D",
+	"LOP_TKA_T34",
+	"LOP_TKA_T55",
+	"LOP_TKA_T72BA",
+	"LOP_TKA_T72BB"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-	"O_APC_Tracked_02_cannon_F",
-	"O_APC_Wheeled_02_rcws_v2_F",
-	"O_MBT_02_cannon_F",
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_hmg_F",
-	"O_MRAP_02_gmg_F",
-	"O_Truck_02_covered_F",
-	"O_Heli_Light_02_dynamicLoadout_F",
-	"O_Heli_Transport_04_covered_F",
-	"O_LSV_02_armed_F",
-	"O_LSV_02_AT_F"
+	"LOP_TKA_UAZ",
+	"LOP_TKA_UAZ_AGS",
+	"LOP_TKA_UAZ_DshKM",
+	"LOP_TKA_UAZ_Open",
+	"LOP_TKA_UAZ_SPG",
+	"LOP_TKA_Ural",
+	"LOP_TKA_Ural_open",
+	"LOP_TKA_BTR70",
+	"LOP_TKA_BTR60",
+	"LOP_TKA_BMP1"
 ];
 
 opfor_troup_transports_truck = [
 	opfor_transport_truck,
-	"O_Truck_03_covered_F",
-	"O_Truck_02_covered_F"
+	"LOP_TKA_Ural_open"
 ];
 
 opfor_troup_transports_heli = [
 	opfor_transport_helo,
-	"O_Heli_Light_02_unarmed_F",
-	"O_Heli_Light_02_dynamicLoadout_F",
-	"O_Heli_Attack_02_dynamicLoadout_F",
-	"O_Heli_Transport_04_covered_F",
-	"O_T_VTOL_02_infantry_F"
+	"LOP_TKA_Mi8MT_Cargo",
+	"LOP_TKA_Mi8MTV3_FAB",
+	"LOP_TKA_Mi8MTV3_UPK23"
 ];
 
 opfor_air = [
-	"O_Heli_Light_02_dynamicLoadout_F",
-	"O_Heli_Attack_02_dynamicLoadout_black_F",
-	"O_Heli_Attack_02_dynamicLoadout_F",
-	"O_T_VTOL_02_vehicle_F",
-	"O_Plane_CAS_02_F",
-	"O_Plane_Fighter_02_F"
+	"LOP_TKA_Mi8MT_Cargo",
+	"LOP_TKA_Mi24V_AT",
+	"LOP_TKA_Mi24V_FAB",
+	"LOP_TKA_Mi24V_UPK23",
+	"LOP_TKA_Mi8MTV3_FAB",
+	"LOP_TKA_Mi8MTV3_UPK23"
 ];
 
 opfor_statics = [
-	"O_HMG_01_high_F",
-	"O_GMG_01_high_F",
-	"O_HMG_01_high_F",
-	"O_GMG_01_high_F",	
-	"O_static_AA_F",
-	"O_static_AT_F",
-	"O_Mortar_01_F"
+	"LOP_TKA_Static_D30",
+	"LOP_TKA_Static_AT4",
+	"LOP_TKA_Igla_AA_pod",
+	"LOP_TKA_Static_AGS17",
+	"LOP_TKA_Static_DSHKM",
+	"LOP_TKA_NSV_TriPod",
+	"LOP_TKA_Static_SPG9",
+	"LOP_TKA_ZU23"
 ];
 
+
 opfor_recyclable = [
-	["O_HMG_01_high_F",0,round (20 / GRLIB_recycling_percentage),0],
-	["O_GMG_01_high_F",0,round (40 / GRLIB_recycling_percentage),0],
-	["O_static_AA_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_static_AT_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_Mortar_01_F",0,round (300 / GRLIB_recycling_percentage),0],
-	["O_LSV_02_armed_F",1,round (35 / GRLIB_recycling_percentage),2],
-	["O_LSV_02_AT_F",1,round (45 / GRLIB_recycling_percentage),2],
-	["O_G_Offroad_01_armed_F",1,round (30 / GRLIB_recycling_percentage),2],
-	["O_G_Offroad_01_AT_F",1,round (40 / GRLIB_recycling_percentage),2],
-	["I_C_Offroad_02_LMG_F",1,round (30 / GRLIB_recycling_percentage),2],
-	["O_Truck_02_covered_F",5,round (20 / GRLIB_recycling_percentage),5],
-	["O_Truck_02_transport_F",5,round (20 / GRLIB_recycling_percentage),5],
-	["O_Truck_03_covered_F",5,round (50 / GRLIB_recycling_percentage),5],
-	["O_Truck_03_transport_F",5,round (50 / GRLIB_recycling_percentage),5],
-	["O_MRAP_02_hmg_F",5,round (150 / GRLIB_recycling_percentage),3],
-	["O_MRAP_02_gmg_F",5,round (150 / GRLIB_recycling_percentage),3],
-	["O_Boat_Armed_01_hmg_F",2,round (200 / GRLIB_recycling_percentage),2],
-	["O_APC_Wheeled_02_rcws_v2_F",10,round (450 / GRLIB_recycling_percentage),10],
-	["O_APC_Tracked_02_cannon_F",10,round (1200 / GRLIB_recycling_percentage),10],
-	["O_APC_Tracked_02_AA_F",10,round (1300 / GRLIB_recycling_percentage),10],
-	["O_MBT_02_cannon_F",15,round (1400 / GRLIB_recycling_percentage),15],
-	["O_MBT_04_cannon_F",15,round (2000 / GRLIB_recycling_percentage),15],
-	["O_MBT_04_command_F",15,round (2300 / GRLIB_recycling_percentage),15],
-	["O_Heli_Attack_02_dynamicLoadout_black_F",10,round (1700 / GRLIB_recycling_percentage),20],
-	["O_Heli_Attack_02_dynamicLoadout_F",10,round (1700 / GRLIB_recycling_percentage),20],
-	["O_Heli_Light_02_unarmed_F",10,round (1100 / GRLIB_recycling_percentage),20],	
-	["O_Heli_Light_02_dynamicLoadout_F",10,round (1600 / GRLIB_recycling_percentage),20],
-	["O_Heli_Transport_04_covered_F",10,round (1400 / GRLIB_recycling_percentage),20],
-	["O_Plane_CAS_02_F",20,round (2000 / GRLIB_recycling_percentage),30],
-	["O_Plane_Fighter_02_F",20,round (2000 / GRLIB_recycling_percentage),30],
-	["O_Plane_Fighter_02_Stealth_F",20,round (2000 / GRLIB_recycling_percentage),30],
-	["O_T_VTOL_02_vehicle_F",20,round (2500 / GRLIB_recycling_percentage),20],
-	["O_T_VTOL_02_infantry_F",20,round (2500 / GRLIB_recycling_percentage),20]
+	// Static
+	["LOP_TKA_Static_D30",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_Static_AT4",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_Igla_AA_pod",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_Static_AGS17",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_Static_DSHKM",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_NSV_TriPod",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_Static_SPG9",0,round (75 / GRLIB_recycling_percentage),0],
+	["LOP_TKA_ZU23",0,round (75 / GRLIB_recycling_percentage),0],
+
+	// opfor_troup_transports_truck
+	["LOP_TKA_Ural_open",5,round (40 / GRLIB_recycling_percentage),5],
+
+	// opfor_battlegroup_vehicles_low_intensity
+	["LOP_TKA_UAZ",1,round (90 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_UAZ_AGS",1,round (60 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_UAZ_DshKM",1,round (80 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_UAZ_Open",1,round (90 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_UAZ_SPG",1,round (100 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_Ural",1,round (150 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_Ural_open",1,round (210 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BTR70",1,round (190 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BTR60",1,round (210 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BMP1",1,round (200 / GRLIB_recycling_percentage),2],
+
+	// opfor_battlegroup_vehicles
+	["LOP_TKA_ZSU234",1,round (520 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BMP1D",1,round (450 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BMP2",1,round (500 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_BMP2D",1,round (600 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_T34",1,round (750 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_T55",1,round (800 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_T72BA",1,round (850 / GRLIB_recycling_percentage),2],
+	["LOP_TKA_T72BB",1,round (850 / GRLIB_recycling_percentage),2],
+
+	// militia_vehicles
+	["LOP_AM_OPF_Landrover",0,round (80 / GRLIB_recycling_percentage),0],
+	["LOP_AM_OPF_Landrover_M2",0,round (80 / GRLIB_recycling_percentage),0],
+	["LOP_AM_OPF_Landrover_SPG9",1,round (100 / GRLIB_recycling_percentage),2],
+	["LOP_AM_OPF_Nissan_PKM",1,round (100 / GRLIB_recycling_percentage),2],
+	["LOP_AM_OPF_UAZ_DshKM",1,round (100 / GRLIB_recycling_percentage),2],
+	["LOP_AM_OPF_UAZ_SPG",1,round (100 / GRLIB_recycling_percentage),2],
+	["LOP_AM_OPF_BTR60",1,round (200 / GRLIB_recycling_percentage),2],
+
+	// helis
+	["LOP_TKA_Mi8MT_Cargo",15,round (770 / GRLIB_recycling_percentage),25],
+	["LOP_TKA_Mi8MTV3_FAB",15,round (760 / GRLIB_recycling_percentage),25],
+	["LOP_TKA_Mi8MTV3_UPK23",10,round (780 / GRLIB_recycling_percentage),20],
+	["LOP_TKA_Mi24V_AT",15,round (850 / GRLIB_recycling_percentage),25],
+	["LOP_TKA_Mi24V_FAB",15,round (850 / GRLIB_recycling_percentage),25],
+	["LOP_TKA_Mi24V_UPK23",15,round (850 / GRLIB_recycling_percentage),25]
 ];
