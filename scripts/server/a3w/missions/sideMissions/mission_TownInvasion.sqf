@@ -69,7 +69,7 @@ _successExec = {
 	{
 		[_x, _rwd_ammo, _rwd_fuel] call ammo_add_remote_call;
 		[gamelogic, _text] remoteExec ["globalChat", owner _x];
-		[_x, 10] call F_addReput;
+		[_x, 40] call F_addReput;
 	} forEach ([_missionPos, GRLIB_capture_size] call F_getNearbyPlayers);
 
 	_successHintMessage = ["STR_INVASION_MESSAGE2", sideMissionColor, _townName];

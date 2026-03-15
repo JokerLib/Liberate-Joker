@@ -106,7 +106,7 @@ if ( isServer ) then {
 						if ( _score > GRLIB_perm_air ) then { _penalty = GRLIB_civ_penalties*2 };
 						if ( _score > GRLIB_perm_max ) then { _penalty = GRLIB_civ_penalties*3 };
 						[_killer, -_penalty] call F_addScore;
-						[_killer, -5] call F_addReput;
+						[_killer, -20] call F_addReput;
 						[name _unit, _penalty, _killer] remoteExec ["remote_call_civ_penalty", 0];
 						combat_readiness = combat_readiness + (0.5 * GRLIB_difficulty_modifier);
 						stats_readiness_earned = stats_readiness_earned + (0.5 * GRLIB_difficulty_modifier);

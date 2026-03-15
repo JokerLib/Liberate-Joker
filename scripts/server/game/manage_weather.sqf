@@ -26,8 +26,8 @@ while { GRLIB_endgame == 0 } do {
 		_chosen_weather = selectRandom _weathers;
 		_rain = 0;
 		_fog = 0;
-		if (_chosen_weather >= 0.5) then { _rain = 0.2; _fog = 0.2 };
-		if (_chosen_weather >= 0.7) then { _rain = 0.4; _fog = 0.4 }; // Removed heavy rain due to severe fps issues
+		if (_chosen_weather >= 0.5) then { _rain = 0.15; _fog = 0.05 };
+		if (_chosen_weather >= 0.7) then { _rain = 0.3; _fog = 0.15 }; // Removed heavy rain due to severe fps issues
 		_windx = (floor random 4);
 		_windy = (floor random 4);
 		0 setOvercast _chosen_weather;

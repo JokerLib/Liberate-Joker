@@ -313,7 +313,6 @@ while { !_stopit } do {
 
 		if (_sector_despawn_tickets <= 1) then {
 			_stopit = true;
-			{ [_x, -5] call F_addReput } forEach (AllPlayers - (entities "HeadlessClient_F"));
 		};
 	};
 	sleep 5;
